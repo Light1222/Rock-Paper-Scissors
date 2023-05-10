@@ -3,11 +3,11 @@ extends layout
 block content
     div.card-container
         div.card PLayer Choice
-            img(src=`/images/${playerChoice}-icon.png`)
+            img(src=`/images/${playerChoice}.png`)
 
-            p VS
+            img.v(src=`/images/VS.png`)
             div.card PC Choice
-                img(src=`/images/${pcChoice}-icon.png`)
+                img(src=`/images/${pcChoice}.png`)
 
                 h3 Winner: #{winner}
                 a(href='/') Play Again

@@ -24,3 +24,8 @@ img {
 .random{
   font-size: 30px;
 }
+
+img.v {
+  width: 100px;
+  height: 100px;
+}

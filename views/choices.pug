@@ -1,10 +1,21 @@
-extend layout
+extends layout
 
 block content
     div.card-container
-        a.card(href="/turn?choice=rock")
-            img(src="/images/rock-icon.png")
-        a.card(href="/turn?choice=paper")
-            img(src="/images/paper-icon.png")
-        a.card(href="/turn?choice=scissors")
-            img(src="/images/scissors-icon.png")
+        //a.card(href="/turn?choice=rock")
+        //    img(src="/images/rock-icon.png")
+        //a.card(href="/turn?choice=paper")
+        //    img(src="/images/paper-icon.png")
+        //a.card(href="/turn?choice=scissors")
+        //    img(src="/images/scissors-icon.png")
+        a.card(href="/turn?choice=queen")
+            img(src="/images/queen.png")
+        a.card(href="/turn?choice=rook")
+            img(src="/images/rook.png")
+        a.card(href="/turn?choice=bishop")
+            img(src="/images/bishop.png")
+        a.card(href="/turn?choice=knight")
+            img(src="/images/knight.png")
+        a.card(href="/turn?choice=pawn")
+            img(src="/images/pawn.png")
+        // Chess.com holds copyright for all following images
